@@ -1,0 +1,31 @@
+# Données simulées — ne pas versionner (RGPD)
+donnees_snds/
+*.csv
+
+# Modèles ML sérialisés — régénérables depuis le code
+*.pkl
+*.joblib
+
+# Environnement Python
+__pycache__/
+*.pyc
+*.pyo
+ml_env/
+dagster_env/
+.env
+venv/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Images générées — dans images/ uniquement
+donnees_snds/*.png
