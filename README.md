@@ -1,4 +1,4 @@
-# SNDS — Analyse de la mortalité post-AVC
+# SNDS: Analyse de la mortalité post-AVC
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Lifelines](https://img.shields.io/badge/Lifelines-KaplanMeier-green)
@@ -25,7 +25,7 @@ sur ce jeu simulé. Ils ne reflètent pas les données réelles de la Guyane.
 - **Données** : SNDS (PMSI-MCO, DCIR, CépiDc)
 - **Statut** : données simulées, aucune donnée réelle
 
-## Tableau de bord — Résultats
+## Tableau de bord: Résultats
 
 ![Tableau de bord AVC](images/tableau_bord_avc.png)
 
@@ -127,7 +127,7 @@ interprétables en tant que données réelles.
 
 ## Statut
 
-Projet terminé — code reproductible, résultats documentés.
+Projet terminé: code reproductible, résultats documentés.
 
 ## Auteur
 
