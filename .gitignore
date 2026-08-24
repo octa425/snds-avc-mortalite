@@ -1,31 +1,15 @@
-# Données simulées — ne pas versionner (RGPD)
-donnees_snds/
-*.csv
-
-# Modèles ML sérialisés — régénérables depuis le code
-*.pkl
-*.joblib
-
-# Environnement Python
+# Environnements virtuels
+venv/
+env/
 __pycache__/
 *.pyc
-*.pyo
-ml_env/
-dagster_env/
-.env
-venv/
 
-# Fichiers systèmes
-.DS_Store
-Thumbs.db
-desktop.ini
+# Donnees (trop lourdes pour git)
+donnees_snds/
+donnees_ml/
 
-# Jupyter Notebooks checkpoints
-.ipynb_checkpoints/
+# Modeles (on les forcera avec -f)
+*.pkl
 
 # Logs
 *.log
-logs/
-
-# Images générées — dans images/ uniquement
-donnees_snds/*.png
